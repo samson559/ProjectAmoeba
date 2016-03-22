@@ -80,7 +80,6 @@ public class MovementList : MonoBehaviour {
 	}
 	IEnumerator wait()
 	{
-		print ("called");
 		while (!reached) {
 			//print (curr.time);
 			curr.time -= Time.deltaTime;
